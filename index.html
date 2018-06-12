@@ -16,7 +16,13 @@
         <style>
         .jumbotron{
           background-image: url(back.jpg);
-          color: whitesmoke;
+          color: rgb(97, 66, 184);
+          text-align: center;
+          
+        }
+        .jumbotron background-image{
+            opacity: 0.5;
+
         }
         
         
@@ -52,10 +58,21 @@
   </nav>
 
   <div class="jumbotron">
-    <h1 class="display-2">Hello, world!</h1>
-    <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+    <h1 class="display-3">Mathemania</h1>
+    <p class="lead">Learn maths in the best way possible</p>
     <hr class="my-4">
-    <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+    <p>Subscribe to our newsletter</p>
+    <form class="form-inline">
+      <div class="form-group">
+        <label class="sr-only" for="email">Email address</label>
+        <div class="input-group">
+          <div class="input-group-addon">@</div>
+          <input type="email" class="form-control" id="email" placeholder="Your email">
+        </div>
+      </div>
+      <button type="submit" class="btn btn-primary">Sign up</button>
+    </form>
+    </div>
     <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
   </div>
 </body>
